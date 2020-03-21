@@ -82,7 +82,7 @@ const Wrapper = styled.div`
 
 const Footer = styled.footer`
   text-align: center;
-  margin: 24px;
+  padding: 24px;
 `
 
 export default Layout
