@@ -29,8 +29,6 @@ Infelizmente, existem vários marqueteiros por aí tentando faturar com a noçã
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hearing the WWDC keynote say coding isn&#39;t hard frustrates me. It&#39;s extremely hard. You&#39;re setting beginners up for huge disappointments.</p>&mdash; Tyler McGinnis (@tylermcginnis) <a href="https://twitter.com/tylermcginnis/status/742431287684694017?ref_src=twsrc%5Etfw">June 13, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
 Quando alguém te fala que programar é fácil, ele está te fazendo um enorme desserviço. Isso só pode ser colocado de uma das três maneiras:
 
 **Cenário 1:\
