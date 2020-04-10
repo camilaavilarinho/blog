@@ -1,44 +1,82 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
+import React from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import favicon from "../../static/assets/icon-48x48.png";
+import {
+  FaTwitter,
+  FaLinkedinIn,
+  FaGithub,
+  FaRegEnvelope
+} from "react-icons/fa";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Button from "../components/button"
-import { theme } from "../theme/theme"
-
-class IndexPage extends React.Component {
-  render() {
-    const siteTitle = ""
-
-    return (
-
-      <PageContainer>
-        <Layout location={this.props.location} title={siteTitle}>
-          <SEO
-            title="Home"
-            keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-          />
-          {/* <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" /> */}
-          <Title>
-            Camila Vilarinho
-          </Title>
-          <Link to="/blog/">
-            <Button marginTop="35px">Go to Blog</Button>
-          </Link>
-        </Layout>
-      </PageContainer>
-    )
+const IndexPage = ({ data: { site } }) => {
+  return (
+    <Layout>
+      <Helmet
+        link={[
+          {
+            rel: "icon",
+            type: "image/png",
+            sizes: "16x16",
+            href: `${favicon}`
+          },
+          { rel: "shortcut icon", type: "image/png", href: `${favicon}` }
+        ]}
+      >
+        <title>{site.siteMetadata.title}</title>
+        <meta name="description" content={site.siteMetadata.description} />
+      </Helmet>
+      <div className="main">
+        <div className="profile-conainer">
+          <img className="profile" src="/assets/perfil.jpg" alt="Camila"></img>
+        </div>
+        <div className="social">
+          <a
+            href="https://www.linkedin.com/in/camila-vilarinho/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-container"
+          >
+            <FaLinkedinIn size="2em" className="social-icon" />
+          </a>
+          <a
+            href="https://github.com/camilaavilarinho"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-container"
+          >
+            <FaGithub size="2em" className="social-icon" />
+          </a>
+          <a
+            href="https://twitter.com/camilaavilarnho"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-container"
+          >
+            <FaTwitter size="2em" className="social-icon" />
+          </a>
+          <a
+            href="mailto:camilaavilarinho@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-container"
+          >
+            <FaRegEnvelope size="2em" className="social-icon" />
+          </a>
+        </div>
+      </div>
+    </Layout>
+  );
+};
+export default IndexPage;
+export const pageQuery = graphql`
+  query IndexPageQuery {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
   }
-}
-
-const PageContainer = styled.div`
-  background: ${theme.backgroundColor};
-`
-const Title = styled.h1`
-  font-size: 50px;
-  font-weight: 400;
-`
-
-
-export default IndexPage
+`;
