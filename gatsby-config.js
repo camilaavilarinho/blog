@@ -1,90 +1,59 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+
 module.exports = {
+  /* Your site config here */
   siteMetadata: {
-    // edit below
-    title: `Blog`,
-    author: `Camila Vilarinho`,
-    description: `My personal blog`,
-    siteUrl: `https://camila.dev/`,
-    social: {
-      twitter: `camilaavilarnho`,
-    },
+    title: `Camila Vilarinho`,
+    description: `Meu blog pessoal`,
+    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    home: {
+      title: `Oi!`,
+      description: `Estou em constante busca por aprender coisas novas, e às vezes sinto um chamado muito grande para compartilhar o que aprendo. 
+      Quando isso acontecer, irei reunir esses aprendizados aqui :)`
+    }
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
+        name: `markdown-pages`,
+        path: `${__dirname}/_data`
+      }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-prismjs`,
             options: {
-              maxWidth: 590,
-            },
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false
+            }
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-vscode`,
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
-        ],
-      },
+            resolve: "gatsby-remark-emojis"
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-30027142-1",
+        head: true
+      }
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        // edit below
-        icon: `content/assets/icon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-  ],
-}
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`
+  ]
+};

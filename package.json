@@ -1,66 +1,49 @@
 {
-  "name": "gatsby-personal-starter-blog",
-  "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
-  "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "name": "delog",
+  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
+  "author": "W3Layouts Team <support@w3layouts.com>",
+  "version": "0.1.0",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/W3Layouts/Delog/issues"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.5.1",
-    "@mdx-js/react": "^1.5.1",
-    "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.3.25",
-    "gatsby-image": "^2.0.39",
-    "gatsby-plugin-feed-mdx": "^1.0.0",
-    "gatsby-plugin-google-analytics": "^2.0.18",
-    "gatsby-plugin-manifest": "^2.0.29",
-    "gatsby-plugin-mdx": "^1.0.52",
-    "gatsby-plugin-netlify-cms": "^4.0.0",
-    "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sharp": "^2.0.35",
-    "gatsby-plugin-styled-components": "^3.0.7",
-    "gatsby-plugin-typography": "^2.2.13",
-    "gatsby-remark-copy-linked-files": "^2.0.11",
-    "gatsby-remark-images": "^2.0.6",
-    "gatsby-remark-responsive-iframe": "^2.1.1",
-    "gatsby-remark-smartypants": "^2.0.9",
-    "gatsby-remark-vscode": "^1.0.4",
-    "gatsby-source-filesystem": "^2.0.29",
-    "gatsby-transformer-sharp": "^2.1.18",
-    "netlify-cms-app": "^2.9.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
-    "react-switch": "^5.0.0",
-    "react-typography": "^0.16.19",
-    "styled-components": "^4.2.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
-    "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "gatsby": "^2.19.7",
+    "gatsby-plugin-google-analytics": "^2.1.36",
+    "gatsby-plugin-netlify-cms": "^4.1.38",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-remark-emojis": "^0.4.2",
+    "gatsby-remark-prismjs": "^3.3.31",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.53",
+    "netlify-cms-app": "^2.11.13",
+    "node-sass": "^4.13.1",
+    "prismjs": "^1.19.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/W3Layouts/Delog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "netlify cms"
   ],
-  "license": "MIT",
-  "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/W3Layouts/Delog.git"
   },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
