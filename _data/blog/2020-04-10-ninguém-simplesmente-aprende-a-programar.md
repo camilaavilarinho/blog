@@ -27,7 +27,7 @@ Ninguém simplesmente aprende a programar. Porque programar não é fácil. Prog
 
 Infelizmente, existem vários marqueteiros por aí tentando faturar com a noção de que “programar é fácil” Ou que será, se você usar os produtos deles.
 
-![](/assets/screen-shot-2020-04-11-at-09.18.53.png)
+
 
 Quando alguém te fala que programar é fácil, ele está te fazendo um enorme desserviço. Isso só pode ser colocado de uma das três maneiras:
 
@@ -49,7 +49,7 @@ Pessoa 2:**“Eu quero aprender a programar, mas parece difícil.”
 
 **Pessoa 2:**
 
-![CALE A BOCA E PEGUE MEU DINHEIRO!](/assets/1_pj1zqikethbwsvuxhe1qsg.jpeg)
+
 
 \
 **Pessoa 2 um mês depois:**“Eu pensei que programar fosse uma coisa fácil, talvez eu que seja burro.”
@@ -81,7 +81,7 @@ Porque alguém que passou pelas milhares de horas que se leva para se tornar um 
 
 A maldição do conhecimento previne que muitos desenvolvedores experientes sejam capazes de empatizar com iniciantes. E em nenhum lugar essa falta de empatia é mais aparente do que no resultado do google favorito de todos: o tutorial de programação.
 
-![Como desenhar um cavalo: 1. Desenhe 2 círculos; 2. Desenhe as pernas; 3. Desenhe o rosto; 4. Desenhe o cabelo; 5. Adicione pequenos detalhes.](/assets/ccpgya-uiaa8uar.jpeg "Como desenhar um cavalo: 1. Desenhe 2 círculos; 2. Desenhe as pernas; 3. Desenhe o rosto; 4. Desenhe o cabelo; 5. Adicione pequenos detalhes.")
+
 
 Quantas vezes você já foi realmente capaz de finalizar um tutorial aleatório que você encontrou no google, sem ficar desorientado por algum erro misterioso ou ambiguidade?
 
