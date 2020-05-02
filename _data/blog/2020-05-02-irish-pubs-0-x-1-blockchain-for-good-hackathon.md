@@ -5,6 +5,8 @@ date: 2020-05-02T02:47:03.786Z
 title: Irish Pubs 0 x 1 Blockchain For Good Hackathon
 thumbnail: /assets/1_b0-rkof_ouwnqqdsoihsna.jpeg
 ---
+*[Texto publicado no Medium em 09/10/2017](https://medium.com/@camilavilarinho/irish-pubs-0-x-1-blockchain-for-good-hackathon-62ff688ea75b)*
+
 No meu primeiro final de semana em Dublin — para quem não sabe estou morando em Dublin agora. Depois posso contar mais sobre isso, porque ainda estou decidindo se uso o Medium como blog (ou se vou ter coragem de ficar escrevendo, para não acontecer o que aconteceu com o [blog do outro intercâmbio que fiz](https://camilaavilarinho.wordpress.com/))
 
 Voltando ao ponto: no meu primeiro final de semana em Dublin, ao invés de ir para um pub como toda pessoa normal faria, eu inventei de [participar de um Hackathon](http://events.linuxfoundation.org/events/blockchain-for-good-hackathon)!
@@ -27,7 +29,7 @@ Segundo a[Wikipédia](https://pt.wikipedia.org/wiki/Hackathon)*“É uma maraton
 
 Em resumo a ideia era juntar pessoas interessadas em Blockchain — não necessariamente especialistas — que estivessem dispostas a passar 2 dias pensando e implementando soluções para problemas em duas áreas principais.
 
-***(1)**. Pessoas interessadas em entender profundamente um assunto ou tecnologia*
+**\*(1)**. Pessoas interessadas em entender profundamente um assunto ou tecnologia*
 
 ## Blockchain
 
@@ -114,10 +116,6 @@ A proposta desse projeto era calcular a pegada de carbono dos produtos, assim qu
 
 Além desses, tiveram outros projetos nos temas de erros médicos, transparência em doações, pesquisas acadêmicas etc. Tudo isso mostra o quão amplas são as possibilidades da Blockchain. Claro que a parte de colocar essas ideias na prática é que vai provar se elas são viáveis ou não.
 
-
-
 ... 
-
-
 
 Fazer parte desse Hackathon foi uma decisão muito espontânea, mas que sem querer acabou fazendo muito sentido para mim e para o que eu quero do futuro da minha carreira na TI. Desde que ele terminou tenho me dedicado a entender mais sobre Blockchain e tenho visto que isso é realmente algo incrível e que eu quero estudar mais profundamente. :)
