@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: tecnologia-para-mudar-a-forma-como-votamos
+path: /tecnologia-para-mudar-a-forma-como-votamos
 date: 2020-05-02T03:06:51.086Z
 title: E se pudéssemos usar a tecnologia para mudar a forma como votamos?
 thumbnail: /assets/1_n_jaao-odoj0r85w13_7ew.jpeg
