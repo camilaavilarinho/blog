@@ -5,8 +5,6 @@ date: 2020-05-02T01:05:44.587Z
 title: Ninguém simplesmente aprende a programar
 thumbnail: /assets/aprendeaprogramar.jpeg
 ---
-
-
 *[Texto publicado no Medium em 15/02/2017](https://medium.com/pyladies-teresina/ningu%C3%A9m-simplesmente-aprende-a-programar-e5c41e890368)*
 
 Quando eu comecei a programar, passei por muita frustração por me achar burra ou achar que aquilo não era para mim.
@@ -30,8 +28,6 @@ Ninguém simplesmente aprende a programar. Porque programar não é fácil. Prog
 Infelizmente, existem vários marqueteiros por aí tentando faturar com a noção de que “programar é fácil” Ou que será, se você usar os produtos deles.
 
 ![](/assets/screen-shot-2020-05-01-at-22.53.28.png "“Ouvir o keynote do WWDC falando que programar não é difícil me frustra. É extremamente difícil. Vocês estão preparando iniciantes para grandes decepções.”")
-
-
 
 Quando alguém te fala que programar é fácil, ele está te fazendo um enorme desserviço. Isso só pode ser colocado de uma das três maneiras:
 
@@ -117,3 +113,21 @@ De qualquer maneira, existe a grande chance de o tutorial não ter sido projetad
 > Não use a palavra simplesmente nos seus tutoriais e não use tutorias que usam a palavra simplesmente
 
 O restante do artigo você encontra aqui:[](https://medium.freecodecamp.com/one-does-not-simply-learn-to-code-f25bacdc5b62) https://medium.freecodecamp.com/one-does-not-simply-learn-to-code-f25bacdc5b62
+
+...
+
+Agora estamos entendidos: programar não é fácil, mas nada é!
+
+Existe muita informação por aí, várias opções de coisas por onde começar, várias linguagens de programação, frameworks, IDEs, um mundo de tecnologias diferentes para escolher, estudar e aprender. E para quem está começando pode ficar a sensação de que você nunca vai aprender tudo e ficar bom nisso.
+
+Calma!
+
+* Escolhe o que está mais próximo dos seus objetivos e dá um passo de cada vez
+* Divide as coisas grandes em pedaços pequenos
+* Coloca em prática o que você aprende
+
+E mais importante: mesmo sabendo disso, os momentos de frustração vão vir.
+
+Mas não se preocupe, eles vêm para todo mundo. O bom de você saber de antemão sobre isso, é saber também que esse sentimento de frustração vai passar e se transformar em aprendizado.
+
+Depois, a alegria de ver na tela algo que você fez vai ser muito maior e é dela que você vai lembrar! ❤
