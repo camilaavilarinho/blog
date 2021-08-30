@@ -3,6 +3,7 @@ template: BlogPost
 path: /100-dias-de-hacking
 date: 2021-08-30T10:46:57.997Z
 title: 100 dias de Hacking
+thumbnail: /assets/priscilla-du-preez-7jqqzdsaetk-unsplash.jpg
 ---
 O desafio #100daysofcode(cem dias de código) é um desafio criado pelo [Alex Kallaway](https://twitter.com/ka11away) quando ele decidiu que queria se tornar um programador melhor. Para isso ele se comprometeu publicamente a programar por 100 dias seguidos, ajudando-o assim a criar um novo hábito. Ao compartilhar sobre o desafio diariamente, ele acabou incentivando muitas pessoas a fazer o mesmo e criou um movimento de pessoas que buscam auto aperfeiçoamento, que vai além de programar. Hoje esse movimento engloba vários outros desafios no #100daysofX, como cem dias de leitura, exercícios, idiomas e até o cem dias sem alguma coisa (#100daysWithout), para ajudar pessoas abandonarem algum hábito.
 
