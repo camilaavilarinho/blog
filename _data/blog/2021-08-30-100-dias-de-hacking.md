@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: 100-dias-de-hacking
+path: /100-dias-de-hacking
 date: 2021-08-30T10:46:57.997Z
 title: 100 dias de Hacking
 ---
