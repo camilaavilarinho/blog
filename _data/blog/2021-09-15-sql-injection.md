@@ -21,7 +21,7 @@ O impacto que um ataque de SQL injection pode provocar em uma aplicação ou um 
 
 Uma query SQL é um comando usado para fazer consultas no banco de dados de uma aplicação. Em geral a forma como uma aplicação constrói uma consulta envolve o comando SQL escrito pela pessoa programadora junto com dados fornecidos pelo usuário. Por exemplo:
 
-`SELECT title, text FROM news WHERE id=$id `
+`SELECT title, text FROM news WHERE id=$id`
 
 Estamos buscando o `título` e o `texto` da tabela `notícias` onde o id é igual ao id fornecido pelo usuário.
 
@@ -86,7 +86,7 @@ Após descobrir a quantidade de colunas, o segundo passo é identificar o tipo d
 
 `https://site-inseguro.com/produtos?categoria=sapatos'UNION SELECT NULL,'a',NULL--`
 
-*No exemplo uma string é colocada entre nulls, sendo alternada uma coluna a cada vez, os--são comentários no SQL, significa que o restante query será ignorado.*
+*No exemplo uma string é colocada entre nulls, sendo alternada uma coluna a cada vez, os `--` são comentários no SQL, significa que o restante query será ignorado.*
 
 Uma vez identificado qual/quais colunas retornam string, podemos injetar a nova query:
 
@@ -100,13 +100,11 @@ Haverão situações onde apenas uma coluna é retornada em uma aplicação ou a
 
 São formas de explorar uma vulnerabilidade SQL mesmo sem que o resultado da query seja visível para o atacante, conhecidas por Blind SQL injection (injeção cega de SQL) ou injeção SQL inferencial . Eu achei esses ataques os mais interessantes e surpreendentes nos meus estudos sobre essa vulnerabilidade, me fizeram refletir muito sobre o fato de que hacking também é sobre criatividade. E por isso vou escrever um próximo artigo somente sobre elas.
 
-Referências
+### Referências
 
 * PortSwigger: [](https://portswigger.net/web-security/sql-injection)<https://portswigger.net/web-security/sql-injection>\
   → Os labs do PortSwigger são ótimos para aprender sobre SQL injection na prática.
 * OWASP testing guide: [](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)<https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection>
 * OWASP top 10 (2017): [](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection)<https://owasp.org/www-project-top-ten/2017/A1_2017-Injection>
-
-
 
 *Imagem de capa: Photo by [Diana Polekhina](https://unsplash.com/@diana_pole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/EPCFsDrGbSw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
